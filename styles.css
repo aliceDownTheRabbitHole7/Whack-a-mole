@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background: url("./grass-bg.jpg");
+    background-size: cover;
+}
+
+.board {
+    width: 540px;
+    height: 540px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url("./soil.jpg");
+    background-size: cover;
+    border: 3px solid slategrey;
+    border-radius: 25px;
+}
