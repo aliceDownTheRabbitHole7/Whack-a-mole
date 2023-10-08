@@ -1,10 +1,11 @@
 body {
     text-align: center;
+    color: rgb(63, 11, 1);
     background: url("./grass-bg.jpg");
     background-size: cover;
 }
 
-.board {
+#board {
     width: 540px;
     height: 540px;
 
@@ -16,4 +17,24 @@ body {
     background-size: cover;
     border: 3px solid slategrey;
     border-radius: 25px;
+}
+
+#board div {
+    width: 180px;
+    height: 180px;
+    background-image: url('./dirt-hole.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#board div img {
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
