@@ -1,1 +1,1 @@
-# Whack-a-mole game as created by Kenny Yip Coding.
+# Whack-a-mole game as created by Youtube channel 'Kenny Yip Coding'.
